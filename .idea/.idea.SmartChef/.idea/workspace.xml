@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/ClearCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/ClearCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7237cf7abef49bfbb552d7eb076e422174200/31/bd855ca5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/ClearCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/SelectedCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/IKitchenObjectParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Runtime/BurstCompileAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Runtime/Shared/031-Pointers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Runtime/Shared/035-Functions.cs" root0="SKIP_HIGHLIGHTING" />
