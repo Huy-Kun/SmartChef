@@ -799,6 +799,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 00bc28902910e0d4b9a4b0bc398ed2f0,
         type: 2}
+    - target: {fileID: 1290284018680116992, guid: 94492906154cbe445b8066c31dd508ee,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 2016390491}
     - target: {fileID: 1817750917775442223, guid: 94492906154cbe445b8066c31dd508ee,
         type: 3}
       propertyPath: m_Name
@@ -859,6 +864,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94492906154cbe445b8066c31dd508ee, type: 3}
+--- !u!114 &1304147813 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1290284018680116992, guid: 94492906154cbe445b8066c31dd508ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 939844229}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad2900e60a72d845864ed5ec4f25d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1853590496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1005,6 +1022,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 79415115}
+--- !u!114 &2016390491 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1290284018680116992, guid: 94492906154cbe445b8066c31dd508ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 9065862114108092048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad2900e60a72d845864ed5ec4f25d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7081075194206470044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1155,6 +1184,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9c19a03cad34b8240b6d55ff50fa2d44,
         type: 2}
+    - target: {fileID: 1290284018680116992, guid: 94492906154cbe445b8066c31dd508ee,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1304147813}
     - target: {fileID: 1817750917775442223, guid: 94492906154cbe445b8066c31dd508ee,
         type: 3}
       propertyPath: m_Name
