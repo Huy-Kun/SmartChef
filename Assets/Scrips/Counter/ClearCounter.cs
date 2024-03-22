@@ -5,8 +5,25 @@ using UnityEngine;
 
 public class ClearCounter : BaseCounter
 {
-    public void Interact(Player player)
+    public override void Interact(Player player)
     {
-        Debug.Log("Interact clear counter");
+        if (!HasKitchenObject())
+        {
+            if (player.HasKitchenObject())
+            {
+                player.GetKitchenObject().SetKitchenObjectParent(this);
+            }
+            else
+            {
+                
+            }
+        }
+        else
+        {
+            if (!player.HasKitchenObject())
+            {
+                GetKitchenObject().SetKitchenObjectParent(player);
+            }
+        }
     }
 }
