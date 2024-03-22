@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4951916027286030135}
   - component: {fileID: 5407468383718825432}
   m_Layer: 0
-  m_Name: CabbageSliced
+  m_Name: CabbageSlices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
