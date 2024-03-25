@@ -4,11 +4,8 @@
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/CuttingRecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/CuttingRecipeSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CabbageToCabbageSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CabbageToCabbageSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CheeseToCheeseSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CheeseToCheeseSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/TomatoToTomatoSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/TomatoToTomatoSlices.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/SelectedCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/TrashCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/IKitchenObjectParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/KitchenObject/CuttingRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Runtime/BurstCompileAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Editor/BurstDisassemberCoreInstructionTests.cs" root0="SKIP_HIGHLIGHTING" />
@@ -142,7 +141,8 @@
       <workItem from="1710840533879" duration="4870000" />
       <workItem from="1710917409920" duration="10353000" />
       <workItem from="1711074855046" duration="11476000" />
-      <workItem from="1711100514265" duration="3606000" />
+      <workItem from="1711100514265" duration="5426000" />
+      <workItem from="1711346445968" duration="2231000" />
     </task>
     <servers />
   </component>
