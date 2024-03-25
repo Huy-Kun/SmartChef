@@ -8,23 +8,24 @@ using Image = UnityEngine.UI.Image;
 
 public class ProgressBarUI : MonoBehaviour
 {
-    [SerializeField] private CuttingCounter cuttingCounter;
+    [SerializeField] private GameObject iHasProgressGameObject;
     [SerializeField] private Image bar;
 
+    private IHasProgress iHasProgress;
     private void Start()
     {
-        cuttingCounter.OnProgressChanged += CuttingCounterOnOnProgressChanged;
+        iHasProgress = iHasProgressGameObject.GetComponent<IHasProgress>();
+        iHasProgress.OnProgressChanged += IHasProgressOnProgressChanged;
 
         bar.fillAmount = 0;
         Hide();
     }
 
-    private void CuttingCounterOnOnProgressChanged(object sender, CuttingCounter.OnProgressChangedEventArgs e)
-
+    private void IHasProgressOnProgressChanged(object sender, IHasProgress.OnProgressChangedEventArgs e)
     {
-        bar.fillAmount = e.cuttingProgress;
+        bar.fillAmount = e.progressNormalized;
         
-        if(e.cuttingProgress == 0 || e.cuttingProgress ==1)
+        if(e.progressNormalized == 0 || e.progressNormalized ==1)
             Hide();
         else Show();
     }
