@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/CuttingRecipeSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/CuttingRecipeSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObjectSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject/KitchenObjectSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +18,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/ContainerCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/SelectedCounterVisual.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/StoveCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/Counter/TrashCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/IHasProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/IKitchenObjectParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/PlateKitchenObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/BurningRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/FryingRecipeSO.cs" root0="FORCE_HIGHLIGHTING" />
