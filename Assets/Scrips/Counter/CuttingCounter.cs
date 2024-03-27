@@ -43,6 +43,11 @@ public class CuttingCounter : BaseCounter, IHasProgress
             if (!player.HasKitchenObject())
             {
                 GetKitchenObject().SetKitchenObjectParent(player);
+                
+                OnProgressChanged?.Invoke(this, new  IHasProgress.OnProgressChangedEventArgs
+                {
+                    progressNormalized = 0f
+                });
             }
             else
             {
@@ -51,6 +56,11 @@ public class CuttingCounter : BaseCounter, IHasProgress
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
                     {
                         GetKitchenObject().DestroySelf();
+                        
+                        OnProgressChanged?.Invoke(this, new  IHasProgress.OnProgressChangedEventArgs
+                        {
+                            progressNormalized = 0f
+                        });
                     }
                 }
             }
