@@ -3,43 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using Dacodelaac.Core;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class DeliveryManagerUI : BaseMono
 {
     [SerializeField] private Transform containter;
-    [SerializeField] private Transform recipeTemplate;
+    [SerializeField] private Transform recipePrefab;
 
     private void Start()
     {
-        DeliveryManager.Instance.OnRecipeCompleted += InstanceOnOnRecipeCompleted;
         DeliveryManager.Instance.OnRecipeSpawned += InstanceOnOnRecipeSpawned;
-        recipeTemplate.gameObject.SetActive(false);
+        DeliveryManager.Instance.OnRecipeCompleted += InstanceOnOnRecipeCompleted;
     }
 
-    private void InstanceOnOnRecipeSpawned(object sender, EventArgs e)
-    {
-        UpdateVisual();
-    }
-
-    private void InstanceOnOnRecipeCompleted(object sender, EventArgs e)
-    {
-        UpdateVisual();
-    }
-
-    void UpdateVisual()
+    private void InstanceOnOnRecipeCompleted(object sender, DeliveryManager.OnRecipeCompletedEventArgs e)
     {
         foreach (Transform child in containter)
         {
-            if(child == recipeTemplate) continue;
-            Destroy(child.gameObject);
-        }
-
-        foreach (var recipeSO in DeliveryManager.Instance.GetWaitingRecipeList())
-        {
-            Transform recipeTemplate = Instantiate(this.recipeTemplate, containter);
-            recipeTemplate.gameObject.SetActive(true);
-            recipeTemplate.gameObject.GetComponent<DeliveryManagerSingleUI>().SetUpRecipeSO(recipeSO);
+            if (child.GetComponent<DeliveryManagerSingleUI>().RecipeSO == e.recipeSO)
+            {
+                Destroy(child.gameObject);
+                return;
+            }
         }
     }
+
+    private void InstanceOnOnRecipeSpawned(object sender, DeliveryManager.OnRecipeSpawnedEventArgs e)
+    {
+        Transform recipeTemplate = Instantiate(this.recipePrefab, containter);
+        recipeTemplate.gameObject.GetComponent<DeliveryManagerSingleUI>().SetUpRecipeSO(e.recipeSO);
+    }
+    
 
 }

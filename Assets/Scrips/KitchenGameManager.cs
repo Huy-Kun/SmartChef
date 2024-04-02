@@ -22,7 +22,7 @@ public class KitchenGameManager : BaseMono
     private State state;
     private float waitingToStartTimer = 1f;
     private float countdownToStartTimer = 3f;
-    private float gamePlayingTimer = 10f;
+    private float gamePlayingTimer = 65f;
     private void Awake()
     {
         Instance = this;

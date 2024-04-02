@@ -2,95 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/GamePauseUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/GamePauseUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/InputHandler.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/InputHandler.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/Launcher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/Launcher.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/UI/BlackScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/UI/BlackScreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/Core/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/Core/Launcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Layouts/FitScreenRectTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Layouts/FitScreenRectTransform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/LoadingScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/LoadingScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Variables/ticker.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Variables/ticker.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/ARIAL SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/I2/Localization/Examples/Resources/ARIAL SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/ClearCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/ClearCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/ContainerCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/ContainerCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/DeliveryCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/DeliveryCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/PlateCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/PlateCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/StoveCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/StoveCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/TrashCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/TrashCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Bread.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Bread.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Cabbage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Cabbage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/CabbageSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/CabbageSlices.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Cheese.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Cheese.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/CheeseSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/CheeseSlices.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyBurned.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyBurned.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyCooked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyCooked.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyUncooked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/MeatPattyUncooked.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Homepopups.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Homepopups.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Plate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Plate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/PlateComplete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/PlateComplete.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Tomato.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/Tomato.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/TomatoSlices.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/KitchenObject/TomatoSlices.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgressBarUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgressBarUI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/BaseCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/ContainerCounterVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/ContainerCounterVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounterVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounterVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounterVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounterVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/SelectedCounterVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/SelectedCounterVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/StoveCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/StoveCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/StoveCounterVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/StoveCounterVisual.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/DeliveryManagerSingleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/DeliveryManagerSingleUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/DeliveryManagerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/DeliveryManagerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/KitchenObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/LookAtCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/LookAtCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/PlateCompleteVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/PlateCompleteVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/PlateIconSingleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/PlateIconSingleUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/KitchenGameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/PlateIconsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/PlateIconsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/PlayerAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ProgressBarUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/BurningRecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/BurningRecipeSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/CuttingRecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/CuttingRecipeSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/FryingRecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/FryingRecipeSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/KitchenObjectSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/KitchenObjectSO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/RecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/RecipeSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/RecipeSOList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/ScriptTableObject/RecipeSOList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Bread.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Bread.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/BurningRecipe/MeatCookedToMeatBurned.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/BurningRecipe/MeatCookedToMeatBurned.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Cabbage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Cabbage.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CabbageSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CabbageSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Cheese.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Cheese.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CheeseSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CheeseSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CabbageToCabbageSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CabbageToCabbageSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CheeseToCheeseSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/CheeseToCheeseSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/TomatoToTomatoSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/CuttingRecipe/TomatoToTomatoSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/FryingRecipe/MeatUncookedToMeatCooked.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/FryingRecipe/MeatUncookedToMeatCooked.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyBurned.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyBurned.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyCooked.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyCooked.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyUncooked.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/MeatPattyUncooked.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Plate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Plate.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/PlateComplete.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/PlateComplete.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/Buger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/Buger.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/CheeseBuger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/CheeseBuger.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/MegaBuger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/MegaBuger.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/Salad.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/Salad.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/_RecipeList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Recipe/_RecipeList.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/Tomato.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/Tomato.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTableObjects/TomatoSlices.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptTableObjects/TomatoSlices.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/ChefBaseMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/ChefBaseMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Textures/GradientVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Textures/GradientVertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/ChefHeadMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/ChefHeadMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/Wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/Wall.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/8f/592f3d97/OSPlatform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/ae/1ea8ee56/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bff907ed581f483ab4bd129472866e971fe00/5b/136f6089/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7237cf7abef49bfbb552d7eb076e422174200/31/bd855ca5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
@@ -137,6 +68,8 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Editor/BurstDisassembler.Core.LLVMIR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Editor/LabeledPopup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Runtime/BurstCompileAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Runtime/Editor/BurstLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Runtime/Intrinsics/x86/Csr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Editor/BurstDisassemberCoreInstructionTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Editor/BurstDisassemblerTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Editor/LongTextAreaTests.cs" root0="SKIP_HIGHLIGHTING" />
@@ -150,17 +83,24 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Runtime/Shared/051-TestGenerics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Runtime/Shared/060-TestEnums.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.11/Tests/Runtime/Shared/083-Aliasing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.3.1/Editor/PlasticSCM/UI/UnityPlasticTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.27/Rider/Editor/UnitTesting/CallbackData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/Noise/noise3D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/Noise/noise3Dgrad.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/Noise/noise4D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Runtime/Common/ObservableList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/2D/UTess2D/PlanarGraph.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.searcher@4.9.2/Editor/Searcher/SearcherControl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.9/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.9/Editor/Data/Util/GraphUtil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_EventManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/GraphicEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/RawImageEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs" root0="SKIP_HIGHLIGHTING" />
@@ -182,10 +122,12 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/EventSystem/EventTriggerRemoveDuringExecution.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/EventSystem/InterceptedEventsPreviewTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/InputField/CharacterLimitValidation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/RectMask2D/RectMask2DCulling.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/TestBehaviourBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/Text/FontCreatedByScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/SelectableTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Image/TestableImage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/DesktopInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
@@ -195,7 +137,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/ScrollRect/ScrollRectTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Util/PrivateFieldSetter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Util/UIBehaviourExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/ReorderableList/ReorderableListEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/FunctionArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/ParameterArgs.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -279,6 +224,7 @@
       <workItem from="1711684439756" duration="12520000" />
       <workItem from="1711861527857" duration="5680000" />
       <workItem from="1711955590192" duration="9420000" />
+      <workItem from="1712026799569" duration="19566000" />
     </task>
     <servers />
   </component>

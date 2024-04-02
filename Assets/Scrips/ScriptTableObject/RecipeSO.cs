@@ -7,5 +7,6 @@ using UnityEngine;
 public class RecipeSO : BaseSO
 {
     public List<KitchenObjectSO> KitchenObjectSOList;
+    public float existTime;
     public string recipeName;
 }

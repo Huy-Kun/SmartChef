@@ -2,20 +2,31 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Dacodelaac.Core;
+using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class DeliveryManager : BaseMono
 {
-    public event EventHandler OnRecipeSpawned;
-    public event EventHandler OnRecipeCompleted;
+    public event EventHandler<OnRecipeSpawnedEventArgs> OnRecipeSpawned;
+
+    public class OnRecipeSpawnedEventArgs : EventArgs
+    {
+        public RecipeSO recipeSO;
+    }
+    public event EventHandler<OnRecipeCompletedEventArgs> OnRecipeCompleted;
+    
+    public class OnRecipeCompletedEventArgs : EventArgs
+    {
+        public RecipeSO recipeSO;
+    }
     public static DeliveryManager Instance { get; private set; }
 
     [SerializeField] private RecipeSOList recipeSOList;
 
     private List<RecipeSO> waitingRecipeSOList;
     private float spawnRecipeTimer;
-    private float spawnRecipeTimerMax = 4f;
+    private float spawnRecipeTimerMax = 6f;
     private int waitingRecipeMax = 4;
     private int ordersDelivered;
     private int ordersFailed;
@@ -40,7 +51,10 @@ public class DeliveryManager : BaseMono
                 RecipeSO waitingRecipeSO =
                     recipeSOList.recipeSOList[Random.Range(0, recipeSOList.recipeSOList.Count - 1)];
                 waitingRecipeSOList.Add(waitingRecipeSO);
-                OnRecipeSpawned?.Invoke(this, EventArgs.Empty);
+                OnRecipeSpawned?.Invoke(this, new OnRecipeSpawnedEventArgs
+                {
+                    recipeSO = waitingRecipeSO
+                });
             }
         }
     }
@@ -76,8 +90,11 @@ public class DeliveryManager : BaseMono
                 {
                     // Debug.Log("Delivery success!");
                     ordersDelivered++;
+                    OnRecipeCompleted?.Invoke(this, new OnRecipeCompletedEventArgs
+                    {
+                        recipeSO = waitingRecipeSOList[i]
+                    });
                     waitingRecipeSOList.RemoveAt(i);
-                    OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
                     return;
                 }
             }
@@ -85,6 +102,16 @@ public class DeliveryManager : BaseMono
 
         // Debug.Log("Delivery failed");
         ordersFailed++;
+    }
+
+    public void DiscardRecipeFromWaitingList(RecipeSO recipeSO)
+    {
+        for (int i = 0; i < waitingRecipeSOList.Count; i++)
+            if (recipeSO == waitingRecipeSOList[i])
+            {
+                waitingRecipeSOList.RemoveAt(i);
+                return;
+            }
     }
 
     public List<RecipeSO> GetWaitingRecipeList()
