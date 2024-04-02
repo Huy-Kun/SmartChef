@@ -84,9 +84,7 @@ namespace Dacodelaac.UI
             {
                 t += Time.unscaledDeltaTime;
                 progress.value = Mathf.Min(t / minLoadTime, ao.progress / 0.9f);
-                progressText.TryGetComponent<LocalizationParamsManager>(out LocalizationParamsManager progressTextParam);
-                progressTextParam.SetParameterValue("Value",$"{Mathf.Floor(progress.value * 100f)}");
-                // progressText.text = $"LOADING {Mathf.Floor(progress.value * 100f)}%...";
+                progressText.text = $"LOADING {Mathf.Floor(progress.value * 100f)}%...";
 
                 yield return null;
             }

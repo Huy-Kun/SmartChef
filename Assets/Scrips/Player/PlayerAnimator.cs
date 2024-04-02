@@ -1,6 +1,7 @@
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class PlayerAnimator : MonoBehaviour
+public class PlayerAnimator : BaseMono
 {
     private const string IS_WALKING = "IsWalking";
 
@@ -13,8 +14,9 @@ public class PlayerAnimator : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public override void Tick()
     {
+        base.Tick();
         animator.SetBool(IS_WALKING, player.IsWalking());
     }
 }

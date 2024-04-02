@@ -1,10 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class PlateCounterVisual : MonoBehaviour
+public class PlateCounterVisual : BaseMono
 {
     [SerializeField] private PlateCounter plateCounter;
     [SerializeField] private Transform topPointPlateCounter;

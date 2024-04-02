@@ -1,10 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class DeliveryManager : MonoBehaviour
+public class DeliveryManager : BaseMono
 {
     public event EventHandler OnRecipeSpawned;
     public event EventHandler OnRecipeCompleted;
@@ -16,20 +17,25 @@ public class DeliveryManager : MonoBehaviour
     private float spawnRecipeTimer;
     private float spawnRecipeTimerMax = 4f;
     private int waitingRecipeMax = 4;
+    private int ordersDelivered;
+    private int ordersFailed;
 
     private void Awake()
     {
         Instance = this;
         waitingRecipeSOList = new List<RecipeSO>();
+        ordersDelivered = 0;
+        ordersFailed = 0;
     }
 
-    private void Update()
+    public override void Tick()
     {
+        base.Tick();
         spawnRecipeTimer += Time.deltaTime;
         if (spawnRecipeTimer >= spawnRecipeTimerMax)
         {
             spawnRecipeTimer = 0f;
-            if (waitingRecipeSOList.Count < waitingRecipeMax)
+            if (waitingRecipeSOList.Count < waitingRecipeMax && !KitchenGameManager.Instance.IsGameOver())
             {
                 RecipeSO waitingRecipeSO =
                     recipeSOList.recipeSOList[Random.Range(0, recipeSOList.recipeSOList.Count - 1)];
@@ -68,7 +74,8 @@ public class DeliveryManager : MonoBehaviour
 
                 if (recipeMatchPlateContent == true)
                 {
-                    Debug.Log("Delivery success!");
+                    // Debug.Log("Delivery success!");
+                    ordersDelivered++;
                     waitingRecipeSOList.RemoveAt(i);
                     OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
                     return;
@@ -76,11 +83,27 @@ public class DeliveryManager : MonoBehaviour
             }
         }
 
-        Debug.Log("Delivery failed");
+        // Debug.Log("Delivery failed");
+        ordersFailed++;
     }
 
     public List<RecipeSO> GetWaitingRecipeList()
     {
         return waitingRecipeSOList;
+    }
+
+    public int GetOrdersDeliveredPoint()
+    {
+        return ordersDelivered * 10;
+    }
+
+    public int GetOrdersFailedPoint()
+    {
+        return ordersFailed * 10;
+    }
+
+    public int GetTotalPoint()
+    {
+        return GetOrdersDeliveredPoint() - GetOrdersFailedPoint();
     }
 }

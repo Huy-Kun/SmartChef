@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class KitchenObject : MonoBehaviour
+public class KitchenObject : BaseMono
 {
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
 

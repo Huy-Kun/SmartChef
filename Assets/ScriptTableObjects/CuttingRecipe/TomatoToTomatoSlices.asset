@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a564ba2abe8dffd4aa081285ac4142fa, type: 3}
   m_Name: TomatoToTomatoSlices
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   inputKitchenObject: {fileID: 11400000, guid: 9c19a03cad34b8240b6d55ff50fa2d44, type: 2}
   outputKitchenObject: {fileID: 11400000, guid: 818271f93ec339244a38f75a26dc7f62,
     type: 2}

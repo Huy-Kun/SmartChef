@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 768ce8ba03e0fd242a9e60060b842477, type: 3}
   m_Name: MeatCookedToMeatBurned
   m_EditorClassIdentifier: 
+  id: meat_cooked_to_meat_burned
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   inputKitchenObject: {fileID: 11400000, guid: 620d1482986d2b547a6f15ebc680f694, type: 2}
   outputKitchenObject: {fileID: 11400000, guid: 01c633debe9141844a797cb7f9dab5df,
     type: 2}

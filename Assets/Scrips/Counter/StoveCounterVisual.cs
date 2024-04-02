@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class StoveCounterVisual : MonoBehaviour
+public class StoveCounterVisual : BaseMono
 {
     [SerializeField] private StoveCounter stoveCounter;
     [SerializeField] private GameObject stoveOnGameObject;

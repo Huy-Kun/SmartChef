@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423fdb08f6314434d91ac2526e46e5dc, type: 3}
   m_Name: MegaBuger
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   KitchenObjectSOList:
   - {fileID: 11400000, guid: 59c11ad8edef76242afc4d9926f7ab2a, type: 2}
   - {fileID: 11400000, guid: 620d1482986d2b547a6f15ebc680f694, type: 2}

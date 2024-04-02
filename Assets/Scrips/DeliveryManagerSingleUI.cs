@@ -1,11 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DeliveryManagerSingleUI : MonoBehaviour
+public class DeliveryManagerSingleUI : BaseMono
 {
     [SerializeField] private TextMeshProUGUI recipeName;
     [SerializeField] private Transform ingredientContainer;

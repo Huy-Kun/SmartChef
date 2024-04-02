@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class LookAtCamera : MonoBehaviour
+public class LookAtCamera : BaseMono
 {
     private enum Mode
     {
@@ -15,8 +16,9 @@ public class LookAtCamera : MonoBehaviour
 
     [SerializeField] private Mode mode;
 
-    private void LateUpdate()
+    public override void LateTick()
     {
+        base.LateTick();
         switch (mode)
         {
             case Mode.LookAt:

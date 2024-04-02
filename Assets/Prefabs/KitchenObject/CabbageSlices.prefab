@@ -45,6 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66e0d2f3d03e4b4b98c1d30ad6d34e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: cabbage_slices
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   kitchenObjectSO: {fileID: 11400000, guid: 47e71eb826273c741a413880ac3dce95, type: 2}
 --- !u!1001 &3132805096445590170
 PrefabInstance:

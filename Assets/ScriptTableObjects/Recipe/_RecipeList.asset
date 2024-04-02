@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5070864a9b2c0f24ead7422c0ffb85a7, type: 3}
   m_Name: _RecipeList
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   recipeSOList:
   - {fileID: 11400000, guid: f56328438b0cc254ba110192ef1098f0, type: 2}
   - {fileID: 11400000, guid: d15916e5666be634ebb448c8c17816cf, type: 2}

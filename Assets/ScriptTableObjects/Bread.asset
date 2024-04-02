@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a100d2f7693f5a40a82537c9b9cf09e, type: 3}
   m_Name: Bread
   m_EditorClassIdentifier: 
+  id: bread
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   prefab: {fileID: 4951916027286030135, guid: 1ffdf1cb3f8a0b14da34b2d2a9a2a014, type: 3}
   sprite: {fileID: 21300000, guid: 77b28124b8bda494381c80bd5aa42c22, type: 3}
   objectName: Bread

@@ -131,6 +131,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1437f3cb975b182459506a78deaa6b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   baseCounter: {fileID: 4775475748618944948}
   visualGameObjectArray:
   - {fileID: 4009201794282699153}
@@ -250,6 +257,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57beae7d38d2110459b773cbd7c3de2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate_counter
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 1
+  lateTick: 0
+  fixedTick: 0
   counterTopPoint: {fileID: 0}
   plateKitchenObjectSO: {fileID: 11400000, guid: afe5d33a7f9f4d2448e86a8a13c3c86e,
     type: 2}
@@ -349,6 +363,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5d3d1e3879df8448d17ce90bebde0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   plateCounter: {fileID: 4775475748618944948}
   topPointPlateCounter: {fileID: 1947792279070468553}
   plateVisualPrefab: {fileID: 4951916027286030135, guid: 59113b3603cbd104b93707de1ba66356,

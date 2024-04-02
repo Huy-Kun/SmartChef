@@ -125,6 +125,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc51de8b66a466044bcbebe288042337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate_icon_template
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   image: {fileID: 6587090363041130894}
 --- !u!1 &2265522071229778690
 GameObject:
@@ -173,6 +180,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321415cf2440e8a44879a4536d2732e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   kitchenObjectSO: {fileID: 11400000, guid: afe5d33a7f9f4d2448e86a8a13c3c86e, type: 2}
   validKitchenObjectSOList:
   - {fileID: 11400000, guid: 59c11ad8edef76242afc4d9926f7ab2a, type: 2}
@@ -397,6 +411,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd17daaaecb6834cafeb00a4fc7556b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate_icons_u_i
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   plateKitchenObject: {fileID: 8947888281877512328}
   plateIconTemplate: {fileID: 5801000274446434711}
 --- !u!114 &2811110914888963332
@@ -411,6 +432,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e37ead30f5c2f04497fb801cacd6ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate_icons_u_i
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 1
+  fixedTick: 0
   mode: 2
 --- !u!1001 &2108389627056849129
 PrefabInstance:
@@ -648,6 +676,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48cfa17d3ccfcd44a2f7b127b8f2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: plate_complete_visual
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   plateKitchenObject: {fileID: 8947888281877512328}
   kitchenObjectSOGameObjectList:
   - kitchenObjectSO: {fileID: 11400000, guid: 59c11ad8edef76242afc4d9926f7ab2a, type: 2}

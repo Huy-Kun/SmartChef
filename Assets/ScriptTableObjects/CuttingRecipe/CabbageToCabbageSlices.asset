@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a564ba2abe8dffd4aa081285ac4142fa, type: 3}
   m_Name: CabbageToCabbageSlices
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   inputKitchenObject: {fileID: 11400000, guid: d2189365826909b4ca880d1801d8cbfb, type: 2}
   outputKitchenObject: {fileID: 11400000, guid: 47e71eb826273c741a413880ac3dce95,
     type: 2}

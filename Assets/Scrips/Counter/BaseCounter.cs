@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class BaseCounter : MonoBehaviour, IKitchenObjectParent
+public class BaseCounter : BaseMono, IKitchenObjectParent
 {
     [SerializeField] private Transform counterTopPoint;
 

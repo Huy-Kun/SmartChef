@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class DeliveryManagerUI : MonoBehaviour
+public class DeliveryManagerUI : BaseMono
 {
     [SerializeField] private Transform containter;
     [SerializeField] private Transform recipeTemplate;

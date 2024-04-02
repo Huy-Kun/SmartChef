@@ -137,6 +137,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1437f3cb975b182459506a78deaa6b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 0}
+  ticker: {fileID: 0}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   baseCounter: {fileID: 106893932254634950}
   visualGameObjectArray:
   - {fileID: 8454130992139394144}
@@ -256,6 +263,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56339f8bfe5de2a45a4eec459e5214ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 0}
+  ticker: {fileID: 0}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   cuttingCounter: {fileID: 106893932254634950}
 --- !u!1001 &7149260671122074015
 PrefabInstance:
@@ -505,6 +519,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7440c39b5575531408e7676830de7caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: cutting_counter
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   counterTopPoint: {fileID: 1387621256194583137}
   cuttingRecipeSOArray:
   - {fileID: 11400000, guid: 917455cdfcc244b4183fe1108775e0f0, type: 2}

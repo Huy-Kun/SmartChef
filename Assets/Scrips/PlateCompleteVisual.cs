@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class PlateCompleteVisual : MonoBehaviour
+public class PlateCompleteVisual : BaseMono
 {
     [Serializable]
     public struct KitchenObjectSO_GameObject

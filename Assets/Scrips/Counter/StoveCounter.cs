@@ -37,8 +37,9 @@ public class StoveCounter : BaseCounter, IHasProgress
         state = State.Idle;
     }
 
-    private void Update()
+    public override void Tick()
     {
+        base.Tick();
         if (HasKitchenObject())
         {
             switch (state)

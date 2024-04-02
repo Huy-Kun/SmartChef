@@ -21,8 +21,10 @@ public class PlateCounter : BaseCounter
         plateSpawnedAmount = 0;
     }
 
-    private void Update()
+
+    public override void Tick()
     {
+        base.Tick();
         spawnPlateTimer = spawnPlateTimer + Time.deltaTime;
         if (spawnPlateTimer >= plateSpawnedAmountMax)
         {

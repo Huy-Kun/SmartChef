@@ -140,6 +140,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1437f3cb975b182459506a78deaa6b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 0}
+  ticker: {fileID: 0}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   baseCounter: {fileID: 8353206150692591673}
   visualGameObjectArray:
   - {fileID: 8642749699443920539}
@@ -300,6 +307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9e424b557597f541a3228588b91f7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: stove_counter
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 1
+  lateTick: 0
+  fixedTick: 0
   counterTopPoint: {fileID: 3478641562628375144}
   fryingRecipeSOArray:
   - {fileID: 11400000, guid: 047ccb8f633a72b43b0b910bf326d84b, type: 2}
@@ -401,6 +415,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded87e7e4c3d0e642a2d38e9f809aa40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 0}
+  ticker: {fileID: 0}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   stoveCounter: {fileID: 8353206150692591673}
   stoveOnGameObject: {fileID: 3644091683928377581}
   stoveOnParticles: {fileID: 8853267284512956260}

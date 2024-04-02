@@ -206,6 +206,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1437f3cb975b182459506a78deaa6b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   baseCounter: {fileID: 6639800558813029692}
   visualGameObjectArray:
   - {fileID: 4578650141703357950}
@@ -319,4 +326,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad2900e60a72d845864ed5ec4f25d02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: clear_counter
+  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
+  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
   counterTopPoint: {fileID: 1058902794070925318}

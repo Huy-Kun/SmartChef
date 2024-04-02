@@ -1,10 +1,11 @@
 using System;
+using Dacodelaac.Core;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditorInternal;
 using UnityEngine;
 
-public class Player : MonoBehaviour, IKitchenObjectParent
+public class Player : BaseMono, IKitchenObjectParent
 {
     
     public static Player Instance { get; set; }
@@ -36,14 +37,16 @@ public class Player : MonoBehaviour, IKitchenObjectParent
         gameInput.OnInteractAlternateAction += GameInputOnOnInteractAlternateAction;
     }
 
-    private void Update()
+    public override void Tick()
     {
+        base.Tick();
         HandleMovement();
         HandleInteract();
     }
     
     private void GameInputOnOnInteractAlternateAction(object sender, EventArgs e)
     {
+        if (!KitchenGameManager.Instance.IsGamePlaying()) return;
         if (selectedCounter != null)
         {
             selectedCounter.InteractAlternate(this);
@@ -52,6 +55,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     
     private void GameInputOnOnInteractAction(object sender, EventArgs e)
     {
+        if (!KitchenGameManager.Instance.IsGamePlaying()) return;
         if (selectedCounter != null)
         {
             selectedCounter.Interact(this);
@@ -84,6 +88,8 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     void HandleMovement()
     {
+        if (!KitchenGameManager.Instance.IsGamePlaying()) return;
+        
         Vector2 inputVector = gameInput.GetMovementVectorNormalize();
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);

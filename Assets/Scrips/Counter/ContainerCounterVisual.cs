@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class ContainerCounterVisual : MonoBehaviour
+public class ContainerCounterVisual : BaseMono
 {
     private const string OPEN_CLOSE = "OpenClose";
     

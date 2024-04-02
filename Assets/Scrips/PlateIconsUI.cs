@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dacodelaac.Core;
 using UnityEngine;
 
-public class PlateIconsUI : MonoBehaviour
+public class PlateIconsUI : BaseMono
 {
     [SerializeField] private PlateKitchenObject plateKitchenObject;
     [SerializeField] private Transform plateIconTemplate;
