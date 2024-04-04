@@ -110,6 +110,7 @@ public class DeliveryManager : BaseMono
             if (recipeSO == waitingRecipeSOList[i])
             {
                 waitingRecipeSOList.RemoveAt(i);
+                ordersFailed++;
                 return;
             }
     }

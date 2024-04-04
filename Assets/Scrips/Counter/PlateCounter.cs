@@ -12,7 +12,7 @@ public class PlateCounter : BaseCounter
     [SerializeField] private KitchenObjectSO plateKitchenObjectSO;
 
     private float spawnPlateTimer;
-    private float spawnPlateTimerMax = 4;
+    private float spawnPlateTimerMax = 4f;
     private int plateSpawnedAmount;
     private int plateSpawnedAmountMax = 4;
 
@@ -26,7 +26,7 @@ public class PlateCounter : BaseCounter
     {
         base.Tick();
         spawnPlateTimer = spawnPlateTimer + Time.deltaTime;
-        if (spawnPlateTimer >= plateSpawnedAmountMax)
+        if (spawnPlateTimer >= spawnPlateTimerMax)
         {
             spawnPlateTimer = 0f;
             if (plateSpawnedAmount < plateSpawnedAmountMax)

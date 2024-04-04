@@ -16,7 +16,7 @@ public class HomePopups : BaseMono
             IsLaunching = true,
             IsLoadScene = false,
             Scene = "GameScene",
-            MinLoadTime = 4,
+            MinLoadTime = 2,
             LaunchCondition = null
         }); 
     }

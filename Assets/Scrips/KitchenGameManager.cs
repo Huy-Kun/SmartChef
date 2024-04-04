@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Dacodelaac.Core;
 using UnityEngine;
+using Event = Dacodelaac.Events.Event;
 
 public class KitchenGameManager : BaseMono
 {
@@ -19,10 +20,12 @@ public class KitchenGameManager : BaseMono
         GameOver,
     }
 
+    [SerializeField] public Event gameCompleteEvent; 
+
     private State state;
     private float waitingToStartTimer = 1f;
     private float countdownToStartTimer = 3f;
-    private float gamePlayingTimer = 65f;
+    private float gamePlayingTimer = 1241f;
     private void Awake()
     {
         Instance = this;
@@ -56,6 +59,7 @@ public class KitchenGameManager : BaseMono
                 {
                     state = State.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
+                    gameCompleteEvent.Raise();
                 }
                 break;
             case State.GameOver:

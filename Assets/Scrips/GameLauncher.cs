@@ -13,7 +13,9 @@ namespace Dacodelaac.Core
     public class GameLauncher : BaseLauncher
     {
         [SerializeField] private LoadingScreenEvent loadingScreenEvent;
-        [SerializeField] Event loadingEventDoneEvent;
+        [SerializeField] private Event loadingEventDoneEvent;
+        [SerializeField] private FloatVariable timeScale;
+        
         private void Start()
         {
             Initialize();
@@ -30,9 +32,14 @@ namespace Dacodelaac.Core
                 IsLaunching = true,
                 IsLoadScene = false,
                 Scene = "GameScene",
-                MinLoadTime = 4,
+                MinLoadTime = 2,
                 LaunchCondition = null
             }); 
+        }
+        
+        public void OnPauseGame(bool pause)
+        {
+            Time.timeScale = pause ? 0f : timeScale.Value;
         }
     }
 }

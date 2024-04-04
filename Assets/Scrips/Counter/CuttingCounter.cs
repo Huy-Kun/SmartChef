@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 using UnityEngine;
 
@@ -42,12 +43,10 @@ public class CuttingCounter : BaseCounter, IHasProgress
         {
             if (!player.HasKitchenObject())
             {
-                GetKitchenObject().SetKitchenObjectParent(player);
-                
-                OnProgressChanged?.Invoke(this, new  IHasProgress.OnProgressChangedEventArgs
+                if (cuttingProgress == 0f)
                 {
-                    progressNormalized = 0f
-                });
+                    GetKitchenObject().SetKitchenObjectParent(player);
+                }
             }
             else
             {
@@ -84,6 +83,8 @@ public class CuttingCounter : BaseCounter, IHasProgress
 
             if (cuttingProgress >= cuttingRecipeSO.cuttingProgressMax)
             {
+                cuttingProgress = 0;
+                
                 KitchenObjectSO outputKitchenObjectSO = GetOutputFromInput(GetKitchenObject().GetKitchenObjectSO());
 
                 GetKitchenObject().DestroySelf();

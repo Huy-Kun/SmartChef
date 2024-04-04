@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1437f3cb975b182459506a78deaa6b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 
+  id: selected
   pools: {fileID: 0}
   ticker: {fileID: 0}
   earlyTick: 0
@@ -372,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 8066922541396939785, guid: 4fddadfec520a664b8fc0c8b9c0c4dbf,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8066922541396939785, guid: 4fddadfec520a664b8fc0c8b9c0c4dbf,
         type: 3}
