@@ -5,6 +5,7 @@ using System.Numerics;
 using Dacodelaac.Core;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
+using UnityEditor.iOS;
 using UnityEditorInternal;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
@@ -26,8 +27,10 @@ public class Player : BaseMono, IKitchenObjectParent
     [SerializeField] private GameInput gameInput;
     [SerializeField] private LayerMask counterLayerMask;
     [SerializeField] private Transform holdKitchenObjectPoint;
+    [SerializeField] private Transform dashParticlePoint;
     [SerializeField] private float playerRadius = 0.7f;
     [SerializeField] private float playerHeight = 2f;
+    [SerializeField] private ParticleSystem dashParticle;
 
     private bool _isWalking;
     private Vector3 _lastInteractDir;
@@ -80,6 +83,9 @@ public class Player : BaseMono, IKitchenObjectParent
     {
         if (!KitchenGameManager.Instance.IsGamePlaying()) return;
         if (_isDashing) return;
+        var particle = pools.Spawn(dashParticle);
+        particle.transform.position = dashParticlePoint.position;
+        particle.transform.forward = _dashDir;
         _isDashing = true;
         _dashDistance = 0;
     }

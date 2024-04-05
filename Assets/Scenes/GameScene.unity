@@ -293,8 +293,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   holdKitchenObjectPoint: {fileID: 1666513889}
+  dashParticlePoint: {fileID: 1234602358}
   playerRadius: 0.7
   playerHeight: 2
+  dashParticle: {fileID: 6485552973857367369, guid: 72306dcaa48b7cc44bb1128d66387d27,
+    type: 3}
 --- !u!4 &79415116
 Transform:
   m_ObjectHideFlags: 0
@@ -311,6 +314,7 @@ Transform:
   - {fileID: 1853590497}
   - {fileID: 1666513889}
   - {fileID: 1185018018}
+  - {fileID: 1234602358}
   m_Father: {fileID: 840295018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &110996066
@@ -2897,6 +2901,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a23a451cd8a5d44b8d0ccc6f10e5e1, type: 3}
+--- !u!1 &1234602357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234602358}
+  m_Layer: 0
+  m_Name: ParticlePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1234602358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234602357}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.48, z: -1.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 79415116}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1335215975
 PrefabInstance:
   m_ObjectHideFlags: 0
