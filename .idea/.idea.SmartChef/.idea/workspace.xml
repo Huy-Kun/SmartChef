@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/LoadingScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/LoadingScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Scripts/UI/Popups/Examples/Prefabs/Popup1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameLauncher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameLauncher.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GameLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/GameLauncher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GamePauseUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GamePauseUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GaneOverUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GaneOverUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/HomePopups.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/HomePopups.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scrips/KitchenGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/KitchenGameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/GameInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/GameInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +222,7 @@
       <workItem from="1711955590192" duration="9420000" />
       <workItem from="1712026799569" duration="19891000" />
       <workItem from="1712126747814" duration="14836000" />
+      <workItem from="1712226562504" duration="3852000" />
     </task>
     <servers />
   </component>

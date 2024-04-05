@@ -286,11 +286,15 @@ MonoBehaviour:
   lateTick: 0
   fixedTick: 0
   moveSpeed: 7
+  dashSpeed: 20
+  dashDistanceMax: 4.5
   gameInput: {fileID: 1939615214}
   counterLayerMask:
     serializedVersion: 2
     m_Bits: 64
   holdKitchenObjectPoint: {fileID: 1666513889}
+  playerRadius: 0.7
+  playerHeight: 2
 --- !u!4 &79415116
 Transform:
   m_ObjectHideFlags: 0
@@ -1396,7 +1400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &602227713
 AudioSource:
   m_ObjectHideFlags: 0

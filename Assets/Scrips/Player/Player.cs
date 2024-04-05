@@ -1,13 +1,17 @@
 using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Numerics;
 using Dacodelaac.Core;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditorInternal;
 using UnityEngine;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 public class Player : BaseMono, IKitchenObjectParent
 {
-    
     public static Player Instance { get; set; }
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
 
@@ -17,14 +21,22 @@ public class Player : BaseMono, IKitchenObjectParent
     }
 
     [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float dashSpeed = 22f;
+    [SerializeField] private float dashDistanceMax = 5f;
     [SerializeField] private GameInput gameInput;
     [SerializeField] private LayerMask counterLayerMask;
     [SerializeField] private Transform holdKitchenObjectPoint;
+    [SerializeField] private float playerRadius = 0.7f;
+    [SerializeField] private float playerHeight = 2f;
 
     private bool _isWalking;
     private Vector3 _lastInteractDir;
-    private BaseCounter selectedCounter;
-    private KitchenObject kitchenObject;
+    private Vector3 _dashDir;
+    private BaseCounter _selectedCounter;
+    private KitchenObject _kitchenObject;
+    private bool _isDashing;
+    private float _dashDistance;
+    private float _dashCoolDown;
 
     private void Awake()
     {
@@ -35,6 +47,7 @@ public class Player : BaseMono, IKitchenObjectParent
     {
         gameInput.OnInteractAction += GameInputOnOnInteractAction;
         gameInput.OnInteractAlternateAction += GameInputOnOnInteractAlternateAction;
+        gameInput.OnDashAction += GameInputOnOnDashAction;
     }
 
     public override void Tick()
@@ -42,24 +55,33 @@ public class Player : BaseMono, IKitchenObjectParent
         base.Tick();
         HandleMovement();
         HandleInteract();
+        HandleDash();
     }
-    
+
     private void GameInputOnOnInteractAlternateAction(object sender, EventArgs e)
     {
         if (!KitchenGameManager.Instance.IsGamePlaying()) return;
-        if (selectedCounter != null)
+        if (_selectedCounter != null)
         {
-            selectedCounter.InteractAlternate(this);
+            _selectedCounter.InteractAlternate(this);
         }
     }
-    
+
     private void GameInputOnOnInteractAction(object sender, EventArgs e)
     {
         if (!KitchenGameManager.Instance.IsGamePlaying()) return;
-        if (selectedCounter != null)
+        if (_selectedCounter != null)
         {
-            selectedCounter.Interact(this);
+            _selectedCounter.Interact(this);
         }
+    }
+
+    private void GameInputOnOnDashAction(object sender, EventArgs e)
+    {
+        if (!KitchenGameManager.Instance.IsGamePlaying()) return;
+        if (_isDashing) return;
+        _isDashing = true;
+        _dashDistance = 0;
     }
 
     void HandleInteract()
@@ -79,7 +101,7 @@ public class Player : BaseMono, IKitchenObjectParent
         {
             if (raycastHit.transform.TryGetComponent(out BaseCounter baseCounter))
             {
-                SetSelectedCounter(baseCounter);  
+                SetSelectedCounter(baseCounter);
             }
             else SetSelectedCounter(null);
         }
@@ -89,21 +111,22 @@ public class Player : BaseMono, IKitchenObjectParent
     void HandleMovement()
     {
         if (!KitchenGameManager.Instance.IsGamePlaying()) return;
-        
+
+        if (_isDashing) return;
+
         Vector2 inputVector = gameInput.GetMovementVectorNormalize();
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
 
         float moveDistance = moveSpeed * Time.deltaTime;
-        float playerRadius = 0.7f;
-        float playerHeight = 2f;
         bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
             playerRadius, moveDir, moveDistance);
 
         if (!canMove)
         {
             Vector3 moveDirX = new Vector3(moveDir.x, 0f, 0f).normalized;
-            canMove = moveDirX != Vector3.zero && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
+            canMove = moveDirX != Vector3.zero && !Physics.CapsuleCast(transform.position,
+                transform.position + Vector3.up * playerHeight,
                 playerRadius, moveDirX, moveDistance);
             if (canMove)
             {
@@ -112,7 +135,8 @@ public class Player : BaseMono, IKitchenObjectParent
             else
             {
                 Vector3 moveDirZ = new Vector3(0f, 0f, moveDir.z).normalized;
-                canMove = moveDirZ != Vector3.zero && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
+                canMove = moveDirZ != Vector3.zero && !Physics.CapsuleCast(transform.position,
+                    transform.position + Vector3.up * playerHeight,
                     playerRadius, moveDirZ, moveDistance);
                 if (canMove)
                 {
@@ -128,42 +152,99 @@ public class Player : BaseMono, IKitchenObjectParent
 
         _isWalking = moveDir != Vector3.zero;
 
-        float rotateSpeed = 10f;
+        float rotateSpeed = 23f;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+
+        _dashDir = transform.forward;
+    }
+
+    void HandleDash()
+    {
+        if (!_isDashing) return;
+        if (!KitchenGameManager.Instance.IsGamePlaying()) return;
+
+        var offSetDistance = 1f;
+
+        if (_dashDistance < dashDistanceMax + offSetDistance)
+        {
+            Vector3 dashDir = _dashDir;
+
+            float dashDistance = dashSpeed * Time.deltaTime;
+
+            _dashDistance = _dashDistance + dashDistance;
+
+            bool canDash = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
+                playerRadius, dashDir, dashDistance);
+
+            if (!canDash)
+            {
+                var offSet = 0.15f;
+                var dirX = Math.Abs(dashDir.x) - offSet < 0f ? 0f : dashDir.x;
+                Vector3 dashDirX = new Vector3(dirX, 0f, 0f).normalized;
+                canDash = dashDirX != Vector3.zero && !Physics.CapsuleCast(transform.position,
+                    transform.position + Vector3.up * playerHeight,
+                    playerRadius, dashDirX, dashDistance);
+                if (canDash)
+                {
+                    dashDir = dashDirX;
+                }
+                else
+                {
+                    var dirZ = Math.Abs(dashDir.z) - offSet < 0f ? 0f : dashDir.z;
+                    Vector3 moveDirZ = new Vector3(0f, 0f, dirZ).normalized;
+                    canDash = moveDirZ != Vector3.zero && !Physics.CapsuleCast(transform.position,
+                        transform.position + Vector3.up * playerHeight,
+                        playerRadius, moveDirZ, dashDistance);
+                    if (canDash)
+                    {
+                        dashDir = moveDirZ;
+                    }
+                }
+            }
+
+            if (canDash && _dashDistance < dashDistanceMax)
+            {
+                transform.position += dashDir * dashDistance;
+            }
+
+            return;
+        }
+
+        _isDashing = false;
     }
 
     public bool IsWalking()
     {
         return _isWalking;
     }
-    
+
     private void SetSelectedCounter(BaseCounter selectedCounter)
     {
-        this.selectedCounter = selectedCounter;
+        this._selectedCounter = selectedCounter;
         OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs
         {
-            selectedCounter =  selectedCounter
+            selectedCounter = selectedCounter
         });
     }
 
     public void SetKitchenObject(KitchenObject kitchenObject)
     {
-        this.kitchenObject = kitchenObject;
+        this._kitchenObject = kitchenObject;
     }
 
     public KitchenObject GetKitchenObject()
     {
-        return this.kitchenObject;
+        return this._kitchenObject;
     }
 
     public void ClearKitchenObject()
     {
-        kitchenObject = null;
+        _kitchenObject = null;
     }
 
     public bool HasKitchenObject()
     {
-        return kitchenObject != null;
+        return _kitchenObject != null;
     }
 
     public Transform GetKitchenObjectFollowTransform()

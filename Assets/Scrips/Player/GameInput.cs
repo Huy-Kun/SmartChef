@@ -2,12 +2,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System;
 using UnityEngine.EventSystems;
+using UnityEngine.Video;
 
 public class GameInput : MonoBehaviour
 {
     private PlayerInputActions playerInputActions;
     public event EventHandler OnInteractAction;
     public event EventHandler OnInteractAlternateAction;
+
+    public event EventHandler OnDashAction; 
     private void Awake()
     {
         playerInputActions = new PlayerInputActions();
@@ -15,6 +18,12 @@ public class GameInput : MonoBehaviour
         
         playerInputActions.Player.Interact.performed += InteractOnperformed;
         playerInputActions.Player.InteractAlternate.performed += InteractAlternateOnperformed;
+        playerInputActions.Player.Dash.performed += DashOnperformed;
+    }
+
+    private void DashOnperformed(InputAction.CallbackContext obj)
+    {
+        OnDashAction?.Invoke(this, EventArgs.Empty);
     }
 
     private void InteractAlternateOnperformed(InputAction.CallbackContext obj)
