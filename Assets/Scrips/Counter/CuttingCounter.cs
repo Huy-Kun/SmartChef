@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using Dacodelaac.Events;
 using UnityEngine;
 
 public class CuttingCounter : BaseCounter, IHasProgress
@@ -12,6 +13,8 @@ public class CuttingCounter : BaseCounter, IHasProgress
     
 
     [SerializeField] private CuttingRecipeSO[] cuttingRecipeSOArray;
+    [SerializeField] private PlayAudioEvent playAudioEvent;
+    [SerializeField] private AudioClip[] cutAudios;
 
     private int cuttingProgress;
 
@@ -71,6 +74,8 @@ public class CuttingCounter : BaseCounter, IHasProgress
         if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
         {
             cuttingProgress++;
+            
+            playAudioEvent.RaiseRandom(cutAudios);
 
             CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeFromInput(GetKitchenObject().GetKitchenObjectSO());
             

@@ -53,6 +53,7 @@ MonoBehaviour:
   fixedTick: 0
   prefabs:
   - {fileID: 2950736290763038686, guid: 350f8a4dde53138498ba9af9e4c2b382, type: 3}
+  - {fileID: 6430553995918226673, guid: dfd468d0eb61cc84ea1830b696dc352b, type: 3}
   isLoadProcess: {fileID: 11400000, guid: 76423e95c29413e499f4ed279c38c066, type: 2}
   loadingEventDoneEvent: {fileID: 11400000, guid: 974e7711bb7168f4dbc60b0e78ec844b,
     type: 2}

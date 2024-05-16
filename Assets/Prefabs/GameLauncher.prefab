@@ -52,7 +52,10 @@ MonoBehaviour:
   tick: 0
   lateTick: 0
   fixedTick: 0
-  prefabs: []
+  prefabs:
+  - {fileID: 6987300519232399235, guid: f849ba8417ed7ae428dfca7eeee130e0, type: 3}
+  - {fileID: 2022830839881699702, guid: 6fbbe523114e2cc44b78768d64ed44d4, type: 3}
+  - {fileID: 6694284396596698830, guid: 1ec261272ae06a74ba68e87e3ab6ba5c, type: 3}
   loadingScreenEvent: {fileID: 11400000, guid: 630dd1dc705a137448bb890b192abcb5, type: 2}
   loadingEventDoneEvent: {fileID: 11400000, guid: 974e7711bb7168f4dbc60b0e78ec844b,
     type: 2}

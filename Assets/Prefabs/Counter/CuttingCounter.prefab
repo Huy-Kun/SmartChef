@@ -531,3 +531,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 917455cdfcc244b4183fe1108775e0f0, type: 2}
   - {fileID: 11400000, guid: 098f49b82668bac47b66465db8606598, type: 2}
   - {fileID: 11400000, guid: 1f5d8f1a182598c419a6ce8bc4eddc30, type: 2}
+  playAudioEvent: {fileID: 11400000, guid: 3ee647a2437e8bb4b85726f13b747c60, type: 2}
+  cutAudios:
+  - {fileID: 8300000, guid: e519f586b4ac0904e877dfab85ed729e, type: 3}
+  - {fileID: 8300000, guid: 9c6157275e190604d8136e7e497e941e, type: 3}
+  - {fileID: 8300000, guid: 99c666127ba3b974c99980d14efcf03c, type: 3}

@@ -168,8 +168,8 @@ Material:
     - _RampSmoothDir: 0.5
     - _RampSmoothPoint: 0.5
     - _RampSmoothSpot: 0.5
-    - _RampSmoothing: 0.5
-    - _RampThreshold: 0.8
+    - _RampSmoothing: 0.38
+    - _RampThreshold: 0.667
     - _RampThresholdDir: 0.5
     - _RampThresholdPoint: 0.5
     - _RampThresholdSpot: 0.5
