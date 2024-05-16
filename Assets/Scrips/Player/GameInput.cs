@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System;
-using UnityEngine.EventSystems;
-using UnityEngine.Video;
+using Dacodelaac.Core;
 
-public class GameInput : MonoBehaviour
+public class GameInput : BaseMono
 {
     private PlayerInputActions playerInputActions;
     public event EventHandler OnInteractAction;
@@ -16,9 +15,23 @@ public class GameInput : MonoBehaviour
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
         
+        
+    }
+
+    public override void ListenEvents()
+    {
+        base.ListenEvents();
         playerInputActions.Player.Interact.performed += InteractOnperformed;
         playerInputActions.Player.InteractAlternate.performed += InteractAlternateOnperformed;
         playerInputActions.Player.Dash.performed += DashOnperformed;
+    }
+
+    public override void StopListenEvents()
+    {
+        base.StopListenEvents();
+        playerInputActions.Player.Interact.performed -= InteractOnperformed;
+        playerInputActions.Player.InteractAlternate.performed -= InteractAlternateOnperformed;
+        playerInputActions.Player.Dash.performed -= DashOnperformed;
     }
 
     private void DashOnperformed(InputAction.CallbackContext obj)

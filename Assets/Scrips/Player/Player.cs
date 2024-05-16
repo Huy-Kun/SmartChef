@@ -86,6 +86,7 @@ public class Player : BaseMono, IKitchenObjectParent
         var particle = pools.Spawn(dashParticle);
         particle.transform.position = dashParticlePoint.position;
         particle.transform.forward = _dashDir;
+        particle.GetComponent<ParticleSystem>().Play();
         _isDashing = true;
         _dashDistance = 0;
     }

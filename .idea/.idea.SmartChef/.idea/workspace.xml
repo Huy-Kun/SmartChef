@@ -1,588 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Colorpallet.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Colorpallet/T_sshp_colorpallet_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Colorpallet/T_sshp_colorpallet_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Colorpallet/T_sshp_colorpallet_nature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Colorpallet/T_sshp_colorpallet_nature.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_column.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_column.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_glass_window.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_glass_window.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_glassware.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_glassware.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_light.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_light.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_metal_generic.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_metal_generic.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_snacks_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_snacks_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_sshp_colorpallet_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_sshp_colorpallet_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_sshp_signs.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_sshp_signs.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_stairs.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_stairs.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_b.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_b.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_c.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Materials/M_wall_c.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_Wallpiece.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_Wallpiece.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bag_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bag_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bag_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bag_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_basket.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_basket.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_beer_glass_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_cigs.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_cigs.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_cigs_alt.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_cigs_alt.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_007.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_007.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_06.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_box_snacks_06.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bucket.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_bucket.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_candybar_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cash_register.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cash_register.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chair_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chair_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chewing_gums_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chips_bag_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_chocolate_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cig_box001.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cig_box001.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cig_box_var.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cig_box_var.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_clock.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_clock.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_coffe_plate.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_coffe_plate.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_coffee_machine.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_coffee_machine.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cola_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cola_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cola_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_cola_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_column_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_large.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_large.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_counter_part_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_desk_bin.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_desk_bin.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_device_card.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_device_card.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_display_box.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_display_box.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_eqtiquette_printer.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_eqtiquette_printer.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_exterior_stairs_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_exterior_stairs_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_exterior_stairs_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_exterior_stairs_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_fridge_drinks_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_06.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_06.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_07.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_07.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_08.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_08.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_09.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_glassware_09.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_grid_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_grid_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_grid_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_grid_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_lamp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_lamp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_lamp_head.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_lamp_head.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_large_shelf.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_large_shelf.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_large_sidebuilding.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_large_sidebuilding.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_metal_connector.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_metal_connector.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_metalgrid_connector.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_metalgrid_connector.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_platform_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_platform_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_platform_showcase.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_platform_showcase.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_potato_chips_tx.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_potato_chips_tx.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_roll_invoice.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_roll_invoice.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_roof_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_roof_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_scanner.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_scanner.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_background.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_background.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_flat_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_flat_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_flat_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_flat_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_showcase_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_showcase_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_showcase_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_showcase_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_stacked.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelf_stacked.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelves_var_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shelves_var_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shopping_wall_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shopping_wall_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shopping_wall_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shopping_wall_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shpping_rack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_shpping_rack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_side_bld.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_side_bld.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_storefront.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sign_storefront.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_small_bucket.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_small_bucket.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_snackbar.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_snackbar.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_standing_box_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_standing_box_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_stool_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_store_inside.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_store_inside.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_storefront_mall.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_storefront_mall.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_05.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_sweet_05.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_transformator.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_transformator.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_vent_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_vent_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_vent_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_vent_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_edge_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_glass.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_glass.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_03.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_03.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_04.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_04.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_06.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_06.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_07.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_stationshop_07.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_window_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_window_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_window_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_wall_window_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_windowed_door.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Meshes/SM_windowed_door.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_Wallpiece.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_Wallpiece.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bag_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_basket.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_basket.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_beer_glass_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_cigs.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_cigs.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_cigs_alt.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_cigs_alt.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_007.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_007.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_06.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_box_snacks_06.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bucket.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_bucket.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_candybar_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cash_register.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cash_register.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chair_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chair_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chewing_gums_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chips_bag_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_chocolate_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box001.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box001.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box_var.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cig_box_var.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_clock.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_clock.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_coffe_plate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_coffe_plate.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_coffee_machine.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_coffee_machine.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_cola_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_column_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_large.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_large.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_counter_part_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_desk_bin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_desk_bin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_device_card.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_device_card.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_display_box.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_display_box.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_eqtiquette_printer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_eqtiquette_printer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_exterior_stairs_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_exterior_stairs_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_exterior_stairs_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_exterior_stairs_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_fridge_drinks_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_06.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_06.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_07.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_07.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_08.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_08.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_09.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_glassware_09.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_grid_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp_head.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_lamp_head.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_large_shelf.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_large_shelf.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_large_sidebuilding.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_large_sidebuilding.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_metal_connector.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_metal_connector.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_metalgrid_connector.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_metalgrid_connector.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_showcase.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_platform_showcase.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_potato_chips_tx.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_potato_chips_tx.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_roll_invoice.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_roll_invoice.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_roof_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_roof_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_scanner.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_scanner.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_background.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_background.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_flat_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_flat_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_flat_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_flat_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_showcase_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_stacked.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelf_stacked.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelves_var_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shelves_var_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shopping_wall_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shopping_wall_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shopping_wall_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shopping_wall_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shpping_rack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_shpping_rack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_side_bld.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_side_bld.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_storefront.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sign_storefront.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_small_bucket.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_small_bucket.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_snackbar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_snackbar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_standing_box_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_standing_box_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_stool_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_store_inside.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_store_inside.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_storefront_mall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_storefront_mall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_sweet_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_transformator.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_transformator.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_vent_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_edge_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_glass.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_glass.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_03.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_06.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_06.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_07.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_stationshop_07.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_wall_window_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_windowed_door.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Prefabs/SM_windowed_door.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Scenes/Demo Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Scenes/Demo Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Scenes/Showcase Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Scenes/Showcase Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_02_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_bricktile_02_b.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_sshp_signs_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/T_sshp_signs_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/snacks_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Convenience Store (Low Poly)/Textures/snacks_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DashParticle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DashParticle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Meshes/Kitchen Counter_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Meshes/Kitchen Counter_Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/___www.unityassetcollection.com___.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/___www.unityassetcollection.com___.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10b6135e63434fdba4fc6c109928ab3b50800/8f/592f3d97/OSPlatform.cs" root0="SKIP_HIGHLIGHTING" />
@@ -716,6 +151,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dtw9ihx88l5ufzeezZt5bEsxOy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -728,21 +166,34 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Hieu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Hieu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Hieu\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\Huy\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Huy\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Huy\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\2022.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Projects\SmartChef -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Projects\SmartChef" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Projects\SmartChef -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Projects\SmartChef" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -801,6 +252,8 @@
       <workItem from="1712282057675" duration="18963000" />
       <workItem from="1712560184469" duration="177000" />
       <workItem from="1712561910371" duration="599000" />
+      <workItem from="1714030550967" duration="2166000" />
+      <workItem from="1714039037372" duration="1227000" />
     </task>
     <servers />
   </component>
@@ -808,6 +261,11 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
