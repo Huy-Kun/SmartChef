@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Dacodelaac.Core;
+using Dacodelaac.Events;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -14,15 +15,20 @@ public class DeliveryManager : BaseMono
     {
         public RecipeSO recipeSO;
     }
+
     public event EventHandler<OnRecipeCompletedEventArgs> OnRecipeCompleted;
-    
+
     public class OnRecipeCompletedEventArgs : EventArgs
     {
         public RecipeSO recipeSO;
     }
+
     public static DeliveryManager Instance { get; private set; }
 
     [SerializeField] private RecipeSOList recipeSOList;
+    [SerializeField] protected PlayAudioEvent playAudioEvent;
+    [SerializeField] private AudioClip[] successAudios;
+    [SerializeField] private AudioClip[] failAudios;
 
     private List<RecipeSO> waitingRecipeSOList;
     private float spawnRecipeTimer;
@@ -95,6 +101,7 @@ public class DeliveryManager : BaseMono
                         recipeSO = waitingRecipeSOList[i]
                     });
                     waitingRecipeSOList.RemoveAt(i);
+                    playAudioEvent.RaiseRandom(successAudios);
                     return;
                 }
             }
@@ -102,6 +109,7 @@ public class DeliveryManager : BaseMono
 
         // Debug.Log("Delivery failed");
         ordersFailed++;
+        playAudioEvent.RaiseRandom(failAudios);
     }
 
     public void DiscardRecipeFromWaitingList(RecipeSO recipeSO)

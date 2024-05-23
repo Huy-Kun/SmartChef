@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using Dacodelaac.Core;
+using Dacodelaac.Events;
 using UnityEngine;
 
 public class BaseCounter : BaseMono, IKitchenObjectParent
 {
     [SerializeField] private Transform counterTopPoint;
-
+    [SerializeField] protected PlayAudioEvent playAudioEvent;
+    
     private KitchenObject kitchenObject;
 
     public virtual void Interact(Player player)

@@ -10,6 +10,7 @@ public class PlateCounter : BaseCounter
     public event EventHandler OnRemovePlate;
     
     [SerializeField] private KitchenObjectSO plateKitchenObjectSO;
+    [SerializeField] private AudioClip[] pickUpAudios;
 
     private float spawnPlateTimer;
     private float spawnPlateTimerMax = 4f;
@@ -48,6 +49,7 @@ public class PlateCounter : BaseCounter
                     KitchenObject.SpawnKitchenObject(plateKitchenObjectSO, player);
                     plateSpawnedAmount--;
                     OnRemovePlate?.Invoke(this, EventArgs.Empty);
+                    playAudioEvent.RaiseRandom(pickUpAudios);
                 }
             }
         }

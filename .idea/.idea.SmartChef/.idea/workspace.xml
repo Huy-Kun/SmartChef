@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cad7fe6-dd0e-4dd5-afcd-9028289c691e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/HomeLauncher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dacodelaac/Prefabs/HomeLauncher.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SmartChef/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/ClearCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/ClearCounter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/ContainerCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/ContainerCounter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/CuttingCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameLauncher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameLauncher.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/PlateCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/PlateCounter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/StoveCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/StoveCounter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counter/TrashCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counter/TrashCounter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HomeMusic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HomeMusic.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/BaseCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/ClearCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/ClearCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/ContainerCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/ContainerCounter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/CuttingCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/KitchenCounter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/KitchenCounter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Assets/Materials/MoveVisual.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Assets/Materials/MoveVisual.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/PlateCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Counter/TrashCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Counter/TrashCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/DeliveryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,6 +267,7 @@
       <workItem from="1714030550967" duration="2166000" />
       <workItem from="1714039037372" duration="1227000" />
       <workItem from="1715844989892" duration="5392000" />
+      <workItem from="1716462436928" duration="8570000" />
     </task>
     <servers />
   </component>

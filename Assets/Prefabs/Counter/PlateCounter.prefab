@@ -265,8 +265,13 @@ MonoBehaviour:
   lateTick: 0
   fixedTick: 0
   counterTopPoint: {fileID: 0}
+  playAudioEvent: {fileID: 11400000, guid: 3ee647a2437e8bb4b85726f13b747c60, type: 2}
   plateKitchenObjectSO: {fileID: 11400000, guid: afe5d33a7f9f4d2448e86a8a13c3c86e,
     type: 2}
+  pickUpAudios:
+  - {fileID: 8300000, guid: 668de61a04ca5914aa745f8712c62720, type: 3}
+  - {fileID: 8300000, guid: 6728bf8b07482414e99ba965fdd022d8, type: 3}
+  - {fileID: 8300000, guid: 32d29abc86751884081d2005f9ff2676, type: 3}
 --- !u!1001 &8481410161210329451
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Numerics;
 using Dacodelaac.Core;
+using Dacodelaac.Events;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditor.iOS;
@@ -31,6 +32,9 @@ public class Player : BaseMono, IKitchenObjectParent
     [SerializeField] private float playerRadius = 0.7f;
     [SerializeField] private float playerHeight = 2f;
     [SerializeField] private ParticleSystem dashParticle;
+    [SerializeField] protected PlayAudioEvent playAudioEvent;
+    [SerializeField] private AudioClip[] footStepAudios;
+    [SerializeField] private AudioClip[] dashAudios;
 
     private bool _isWalking;
     private Vector3 _lastInteractDir;
@@ -40,6 +44,8 @@ public class Player : BaseMono, IKitchenObjectParent
     private bool _isDashing;
     private float _dashDistance;
     private float _dashCoolDown;
+    private float footStepTimer;
+    private float footStepTimerMax = 0.2f;
 
     private void Awake()
     {
@@ -89,6 +95,7 @@ public class Player : BaseMono, IKitchenObjectParent
         particle.GetComponent<ParticleSystem>().Play();
         _isDashing = true;
         _dashDistance = 0;
+        playAudioEvent.RaiseRandom(dashAudios);
     }
 
     void HandleInteract()
@@ -159,6 +166,17 @@ public class Player : BaseMono, IKitchenObjectParent
 
         _isWalking = moveDir != Vector3.zero;
 
+        if (_isWalking)
+        {
+            if (footStepTimer < footStepTimerMax)
+                footStepTimer += Time.deltaTime;
+            else
+            {
+                footStepTimer = 0f;
+                playAudioEvent.RaiseRandom(footStepAudios);
+            }
+        }
+
         float rotateSpeed = 23f;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
 
@@ -223,6 +241,11 @@ public class Player : BaseMono, IKitchenObjectParent
     public bool IsWalking()
     {
         return _isWalking;
+    }
+
+    public bool IsDashing()
+    {
+        return _isDashing;
     }
 
     private void SetSelectedCounter(BaseCounter selectedCounter)

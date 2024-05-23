@@ -329,3 +329,7 @@ MonoBehaviour:
   lateTick: 0
   fixedTick: 0
   counterTopPoint: {fileID: 3991594669082472366}
+  playAudioEvent: {fileID: 11400000, guid: 3ee647a2437e8bb4b85726f13b747c60, type: 2}
+  trashAudios:
+  - {fileID: 8300000, guid: 4b70ec0f0afb9ac4ea7dfea07aca4eb4, type: 3}
+  - {fileID: 8300000, guid: 6024ba1d53d005f48a96b3a9f6bacedd, type: 3}

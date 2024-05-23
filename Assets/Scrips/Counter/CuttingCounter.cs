@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using Dacodelaac.Events;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CuttingCounter : BaseCounter, IHasProgress
 {
@@ -13,9 +14,10 @@ public class CuttingCounter : BaseCounter, IHasProgress
     
 
     [SerializeField] private CuttingRecipeSO[] cuttingRecipeSOArray;
-    [SerializeField] private PlayAudioEvent playAudioEvent;
     [SerializeField] private AudioClip[] cutAudios;
-
+    [SerializeField] private AudioClip[] pickUpAudios;
+    [SerializeField] private AudioClip[] dropAudios;
+    
     private int cuttingProgress;
 
     public override void Interact(Player player)
@@ -36,6 +38,8 @@ public class CuttingCounter : BaseCounter, IHasProgress
                     {
                         progressNormalized = (float)cuttingProgress / cuttingRecipeSO.cuttingProgressMax
                     });
+                    
+                    playAudioEvent.RaiseRandom(dropAudios);
                 }
             }
             else
@@ -49,6 +53,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
                 if (cuttingProgress == 0f)
                 {
                     GetKitchenObject().SetKitchenObjectParent(player);
+                    playAudioEvent.RaiseRandom(pickUpAudios);
                 }
             }
             else
@@ -63,6 +68,8 @@ public class CuttingCounter : BaseCounter, IHasProgress
                         {
                             progressNormalized = 0f
                         });
+                        
+                        playAudioEvent.RaiseRandom(pickUpAudios);
                     }
                 }
             }
@@ -76,7 +83,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
             cuttingProgress++;
             
             playAudioEvent.RaiseRandom(cutAudios);
-
+            
             CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeFromInput(GetKitchenObject().GetKitchenObjectSO());
             
             OnCut?.Invoke(this, EventArgs.Empty);

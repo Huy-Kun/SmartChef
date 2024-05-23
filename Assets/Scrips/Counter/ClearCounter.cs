@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ClearCounter : BaseCounter
 {
+    [SerializeField] private AudioClip[] pickUpAudios;
+    [SerializeField] private AudioClip[] dropAudios;
     public override void Interact(Player player)
     {
         if (!HasKitchenObject())
@@ -12,6 +14,7 @@ public class ClearCounter : BaseCounter
             if (player.HasKitchenObject())
             {
                 player.GetKitchenObject().SetKitchenObjectParent(this);
+                playAudioEvent.RaiseRandom(dropAudios);
             }
             else
             {
@@ -23,6 +26,7 @@ public class ClearCounter : BaseCounter
             if (!player.HasKitchenObject())
             {
                 GetKitchenObject().SetKitchenObjectParent(player);
+                playAudioEvent.RaiseRandom(pickUpAudios);
             }
             else
             {
@@ -31,6 +35,7 @@ public class ClearCounter : BaseCounter
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
                     {
                         GetKitchenObject().DestroySelf();
+                        playAudioEvent.RaiseRandom(pickUpAudios);
                     }
                 }
                 else
@@ -40,6 +45,7 @@ public class ClearCounter : BaseCounter
                         if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKitchenObjectSO()))
                         {
                             player.GetKitchenObject().DestroySelf();
+                            playAudioEvent.RaiseRandom(dropAudios);
                         }
                     }
                 }

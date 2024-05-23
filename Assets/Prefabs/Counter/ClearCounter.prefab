@@ -334,3 +334,12 @@ MonoBehaviour:
   lateTick: 0
   fixedTick: 0
   counterTopPoint: {fileID: 1058902794070925318}
+  playAudioEvent: {fileID: 11400000, guid: 3ee647a2437e8bb4b85726f13b747c60, type: 2}
+  pickUpAudios:
+  - {fileID: 8300000, guid: 668de61a04ca5914aa745f8712c62720, type: 3}
+  - {fileID: 8300000, guid: 6728bf8b07482414e99ba965fdd022d8, type: 3}
+  - {fileID: 8300000, guid: 32d29abc86751884081d2005f9ff2676, type: 3}
+  dropAudios:
+  - {fileID: 8300000, guid: 9c88983fa5906dc41944ec5a43b6b5c7, type: 3}
+  - {fileID: 8300000, guid: 331b82ab2c0e2b74d805124d11372c85, type: 3}
+  - {fileID: 8300000, guid: 961379cce253f794abff0d24df806b68, type: 3}

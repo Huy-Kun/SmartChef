@@ -9,6 +9,7 @@ public class ContainerCounter : BaseCounter
     public event EventHandler OnPlayerGrabbedObject;
     
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
+    [SerializeField] private AudioClip[] pickUpAudios;
 
     public override void Interact(Player player)
     {
@@ -16,6 +17,7 @@ public class ContainerCounter : BaseCounter
         {
             KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
             OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+            playAudioEvent.RaiseRandom(pickUpAudios);
         }
     }
 }
