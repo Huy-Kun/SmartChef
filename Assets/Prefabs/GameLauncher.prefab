@@ -86,7 +86,7 @@ MonoBehaviour:
       - m_Target: {fileID: 6887070772924245542}
         m_TargetAssemblyTypeName: Dacodelaac.Core.GameLauncher, Assembly-CSharp
         m_MethodName: OnPauseGame
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

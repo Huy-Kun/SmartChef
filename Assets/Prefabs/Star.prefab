@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1125041058903092660}
   - component: {fileID: 6309210306219560952}
   - component: {fileID: 5415461323299459577}
-  - component: {fileID: 74188963742168597}
   m_Layer: 5
   m_Name: Star
   m_TagString: Untagged
@@ -76,25 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &74188963742168597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7104976995153963253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 418ff1309e093cc45ada81352da0c8f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: star
-  pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
-  ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
-  earlyTick: 0
-  tick: 0
-  lateTick: 0
-  fixedTick: 0
-  star: {fileID: 5415461323299459577}
-  starEnable: {fileID: 21300000, guid: e29249ab5426a4a4eb40dea94e28e7c5, type: 3}
-  starDisable: {fileID: 21300000, guid: 8475215f1a6c7fa4a85fce0affaa8b0a, type: 3}

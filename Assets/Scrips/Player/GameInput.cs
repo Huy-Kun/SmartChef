@@ -14,8 +14,6 @@ public class GameInput : BaseMono
     {
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
-        
-        
     }
 
     public override void ListenEvents()
@@ -56,5 +54,20 @@ public class GameInput : BaseMono
         inputVector = inputVector.normalized;
         
         return inputVector;
+    }
+
+    public void OnClickInteractButton()
+    {
+        OnInteractAction?.Invoke(this, EventArgs.Empty);
+    }
+    
+    public void OnClickInteractAlternateButton()
+    {
+        OnInteractAlternateAction?.Invoke(this, EventArgs.Empty);
+    }
+    
+    public void OnClickDashButton()
+    {
+        OnDashAction?.Invoke(this, EventArgs.Empty);
     }
 }

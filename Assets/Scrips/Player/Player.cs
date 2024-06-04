@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Numerics;
 using Dacodelaac.Core;
 using Dacodelaac.Events;
+using Dacodelaac.Variables;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditor.iOS;
@@ -35,6 +36,7 @@ public class Player : BaseMono, IKitchenObjectParent
     [SerializeField] protected PlayAudioEvent playAudioEvent;
     [SerializeField] private AudioClip[] footStepAudios;
     [SerializeField] private AudioClip[] dashAudios;
+    [SerializeField] private InputHandlerDataVariable inputHandlerData;
 
     private bool _isWalking;
     private Vector3 _lastInteractDir;
@@ -104,6 +106,9 @@ public class Player : BaseMono, IKitchenObjectParent
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
 
+        if (moveDir == Vector3.zero)
+            moveDir = new Vector3(inputHandlerData.Value.Direction.x, 0f, inputHandlerData.Value.Direction.y).normalized;
+
         if (moveDir != Vector3.zero)
         {
             _lastInteractDir = moveDir;
@@ -131,6 +136,10 @@ public class Player : BaseMono, IKitchenObjectParent
         Vector2 inputVector = gameInput.GetMovementVectorNormalize();
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
+
+        if (moveDir == Vector3.zero)
+            moveDir = new Vector3(inputHandlerData.Value.Direction.x, 0f, inputHandlerData.Value.Direction.y)
+                .normalized;
 
         float moveDistance = moveSpeed * Time.deltaTime;
         bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,

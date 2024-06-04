@@ -9,17 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae08cb4a7a0c104283e5f98bfa5845f, type: 3}
-  m_Name: MeatUncookedToMeatCooked
+  m_Script: {fileID: 11500000, guid: 719558c56beb4a8d98cf058fadf5455a, type: 3}
+  m_Name: click_dash_button_event
   m_EditorClassIdentifier: 
-  id: meat_uncooked_to_meat_cooked
+  id: click_dash_button_event
   pools: {fileID: 11400000, guid: 0f8370265b9c9cf4b9c881a80af5841a, type: 2}
   ticker: {fileID: 11400000, guid: a0f02f8f45dea5644a245afa71b8c5dc, type: 2}
   earlyTick: 0
   tick: 0
   lateTick: 0
   fixedTick: 0
-  inputKitchenObject: {fileID: 11400000, guid: ac552d588317dc64f9ff7e126983a645, type: 2}
-  outputKitchenObject: {fileID: 11400000, guid: 620d1482986d2b547a6f15ebc680f694,
-    type: 2}
-  fryingProgressMax: 3
