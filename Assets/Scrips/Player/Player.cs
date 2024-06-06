@@ -7,8 +7,6 @@ using Dacodelaac.Events;
 using Dacodelaac.Variables;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
-using UnityEditor.iOS;
-using UnityEditorInternal;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;

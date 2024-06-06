@@ -25,7 +25,7 @@ public class KitchenGameManager : BaseMono
     private State state;
     private float waitingToStartTimer = 1f;
     private float countdownToStartTimer = 3f;
-    private float gamePlayingTimer = 1241f;
+    private float gamePlayingTimer = 180f;
     private void Awake()
     {
         Instance = this;

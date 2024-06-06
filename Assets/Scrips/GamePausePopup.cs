@@ -8,7 +8,7 @@ public class GamePausePopup : BasePopup
 {
     [SerializeField] private LoadingScreenEvent loadingScreenEvent;
     [SerializeField] private BooleanEvent pauseGameEvent;
-    
+
     protected override void BeforeShow(object data = null)
     {
         base.BeforeShow(data);
@@ -20,6 +20,7 @@ public class GamePausePopup : BasePopup
         base.AfterDismissed();
         pauseGameEvent.Raise(false);
     }
+
     public override void Close()
     {
         Controller.Dismiss(this, false);
@@ -29,11 +30,11 @@ public class GamePausePopup : BasePopup
     {
         loadingScreenEvent.Raise(new LoadingScreenData()
         {
-            IsLaunching = false,
-            IsLoadScene = true,
-            LaunchCondition = null,
-            MinLoadTime = 2f,
-            Scene = "HomeScene"
+            IsLaunching = true,
+            IsLoadScene = false,
+            Scene = "HomeScene",
+            MinLoadTime = 4,
+            LaunchCondition = null
         });
     }
 }

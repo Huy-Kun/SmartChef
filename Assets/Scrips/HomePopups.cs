@@ -20,4 +20,9 @@ public class HomePopups : BaseMono
             LaunchCondition = null
         }); 
     }
+
+    public void OnQuit()
+    {
+        Application.Quit();
+    }
 }
